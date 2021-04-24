@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Musica relante</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="navbar">
+            <img src="media/logo.png" class="logo">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">ACERCA DE</a></li>
+                <li><a href="#">PRODUCTOS</a></li>
+                <li><a href="#">PRODUCTOS</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left-col"></div>
+                <h1>EL<br>SONIDO<br> REAL</h1>
+            <div class="right-col"></div>
+
+        </div>
+
+      </div>  
+
+
+    </body>
+</html>
