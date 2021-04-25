@@ -16,14 +16,32 @@
             </ul>
         </div>
         <div class="content">
-            <div class="left-col"></div>
-                <h1>EL<br>SONIDO<br> REAL</h1>
-            <div class="right-col"></div>
-
+            <div class="left-col">
+                <h1>LEMON<br>TREE</h1>
+            </div>
+            <div class="right-col">
+              <p>Click Aqui Para Escuchar</p>
+              <img src="media/play.png" id="icon">
+            </div>
         </div>
+        <audio id="MySong">
+            <source src="media/lemon.mp3" type="audio/mp3">
+        </audio>
+        
+<script>
+        var MySong = document.getElementById("MySong");
+        var icon = document.getElementById("icon");
 
-      </div>  
+        icon.onclick = function(){
+            if(MySong.paused){
+                MySong.play();
+                icon.src = "media/pause.png";
+            }else{
+                MySong.pause();
+                icon.src = "media/play.png";
+            }
+        }
 
-
+</script>
     </body>
 </html>
